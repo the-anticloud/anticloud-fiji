@@ -1,0 +1,137 @@
+{
+  "bomFormat": "CycloneDX",
+  "specVersion": "1.5",
+  "serialNumber": "urn:uuid:ef203c7e-3d1d-5a0f-be7b-d1bd3782f9cc",
+  "version": 1,
+  "metadata": {
+    "timestamp": "2026-10-05T16:12:23Z",
+    "component": {
+      "type": "application",
+      "name": "FIJI",
+      "version": "1a914a280efd",
+      "bom-ref": "pkg:generic/anticloud/FIJI@1a914a280efd",
+      "purl": "pkg:generic/anticloud/FIJI@1a914a280efd",
+      "licenses": [
+        {
+          "license": {
+            "id": "GPL-3.0"
+          }
+        }
+      ]
+    },
+    "properties": [
+      {
+        "name": "anticloud:source-commit",
+        "value": "1a914a280efda634307cd3e9cc8d6f14e1913412"
+      },
+      {
+        "name": "anticloud:source-url",
+        "value": "https://github.com/fiji/fiji"
+      },
+      {
+        "name": "anticloud:tier",
+        "value": "tier-agent"
+      }
+    ]
+  },
+  "components": [
+    {
+      "type": "library",
+      "name": "based",
+      "version": "unspecified",
+      "purl": "pkg:generic/based",
+      "bom-ref": "conda/based@unspecified"
+    },
+    {
+      "type": "library",
+      "name": "conda-forge",
+      "version": "unspecified",
+      "purl": "pkg:generic/conda-forge",
+      "bom-ref": "conda/conda-forge@unspecified"
+    },
+    {
+      "type": "library",
+      "name": "python",
+      "version": "3.12",
+      "purl": "pkg:generic/python@3.12",
+      "bom-ref": "conda/python@3.12"
+    },
+    {
+      "type": "library",
+      "name": "pip",
+      "version": "unspecified",
+      "purl": "pkg:generic/pip",
+      "bom-ref": "conda/pip@unspecified"
+    },
+    {
+      "type": "library",
+      "name": "process",
+      "version": "unspecified",
+      "purl": "pkg:generic/process",
+      "bom-ref": "conda/process@unspecified"
+    },
+    {
+      "type": "library",
+      "name": "pyimagej",
+      "version": "unspecified",
+      "purl": "pkg:generic/pyimagej",
+      "bom-ref": "conda/pyimagej@unspecified"
+    },
+    {
+      "type": "library",
+      "name": "appose",
+      "version": "unspecified",
+      "purl": "pkg:generic/appose",
+      "bom-ref": "conda/appose@unspecified"
+    },
+    {
+      "type": "library",
+      "name": "java-awt-and-python-qt",
+      "version": "unspecified",
+      "purl": "pkg:generic/java-awt-and-python-qt",
+      "bom-ref": "conda/java-awt-and-python-qt@unspecified"
+    },
+    {
+      "type": "library",
+      "name": "PyQt6",
+      "version": "unspecified",
+      "purl": "pkg:generic/PyQt6",
+      "bom-ref": "conda/PyQt6@unspecified"
+    },
+    {
+      "type": "library",
+      "name": "QtPy",
+      "version": "unspecified",
+      "purl": "pkg:generic/QtPy",
+      "bom-ref": "conda/QtPy@unspecified"
+    },
+    {
+      "type": "library",
+      "name": "scikit-image",
+      "version": "unspecified",
+      "purl": "pkg:generic/scikit-image",
+      "bom-ref": "conda/scikit-image@unspecified"
+    },
+    {
+      "type": "library",
+      "name": "napari",
+      "version": "unspecified",
+      "purl": "pkg:generic/napari",
+      "bom-ref": "conda/napari@unspecified"
+    },
+    {
+      "type": "library",
+      "name": "napari-imagej",
+      "version": "unspecified",
+      "purl": "pkg:generic/napari-imagej",
+      "bom-ref": "conda/napari-imagej@unspecified"
+    },
+    {
+      "type": "library",
+      "name": "ndv",
+      "version": "unspecified",
+      "purl": "pkg:generic/ndv",
+      "bom-ref": "conda/ndv@unspecified"
+    }
+  ]
+}
